@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.board{
+    height: 30rem;
+    width: 30rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(22,1fr);
+    grid-template-rows:repeat(22,1fr) ;
+    
+}
+
+.snake-head{
+    background-color: #f3f169;
+    border: 1px solid white;
+}
+
+.food{
+    background-color: #ac3f21;
+    border: 1px solid white;
+}
